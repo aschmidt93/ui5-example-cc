@@ -3,7 +3,7 @@ import models from "./model/models";
 import * as Device from "sap/ui/Device"; // for UI5 >= 1.115.0 use: import Device from "sap/ui/Device";
 
 /**
- * @namespace flexus.agvhub.frontend
+ * @namespace com.example.project
  */
 export default class Component extends UIComponent {
 	public static metadata = {

@@ -4,7 +4,7 @@ import BaseController from "./BaseController";
 import { ExampleColor } from "com/myorg/myui5lib/library";
 
 /**
- * @namespace flexus.agvhub.frontend.controller
+ * @namespace com.example.project.controller
  */
 export default class Main extends BaseController {
 	public sayHello(): void {

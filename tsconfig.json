@@ -11,7 +11,7 @@
 		"rootDir": "./webapp",
 		"types": ["@sapui5/ts-types-esm", "@types/qunit"],
 		"paths": {
-			"flexus/agvhub/frontend/*": ["./webapp/*"],
+			"com/example/project/*": ["./webapp/*"],
 			"unit/*": ["./webapp/test/unit/*"],
 			"integration/*": ["./webapp/test/integration/*"],
 			"com/myorg/myui5lib/*": [

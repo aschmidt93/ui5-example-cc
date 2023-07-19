@@ -8,7 +8,7 @@ import Router from "sap/ui/core/routing/Router";
 import History from "sap/ui/core/routing/History";
 
 /**
- * @namespace flexus.agvhub.frontend.controller
+ * @namespace com.example.project.controller
  */
 export default abstract class BaseController extends Controller {
 	/**

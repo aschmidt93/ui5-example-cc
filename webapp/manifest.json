@@ -2,7 +2,7 @@
 	"_version": "1.12.0",
 
 	"sap.app": {
-		"id": "flexus.agvhub.frontend",
+		"id": "com.example.project",
 		"type": "application",
 		"i18n": "i18n/i18n.properties",
 		"title": "{{appTitle}}",
@@ -24,7 +24,7 @@
 
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "flexus.agvhub.frontend.view.App",
+			"viewName": "com.example.project.view.App",
 			"type": "XML",
 			"async": true,
 			"id": "app"
@@ -50,7 +50,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "flexus.agvhub.frontend.i18n.i18n"
+					"bundleName": "com.example.project.i18n.i18n"
 				}
 			}
 		},
@@ -59,7 +59,7 @@
 			"config": {
 				"routerClass": "sap.m.routing.Router",
 				"viewType": "XML",
-				"viewPath": "flexus.agvhub.frontend.view",
+				"viewPath": "com.example.project.view",
 				"controlId": "app",
 				"controlAggregation": "pages",
 				"async": true

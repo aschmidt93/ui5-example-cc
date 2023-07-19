@@ -1,4 +1,4 @@
-# UI5 Application flexus.agvhub.frontend
+# UI5 Application com.example.project
 
 Insert the purpose of this project and some interesting info here...
 

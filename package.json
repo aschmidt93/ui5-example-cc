@@ -1,7 +1,7 @@
 {
-	"name": "flexus.agvhub.frontend",
+	"name": "com.example.project",
 	"version": "1.0.0",
-	"description": "UI5 Application: flexus.agvhub.frontend",
+	"description": "UI5 Application: com.example.project",
 	"author": "Andreas Schmidt",
 	"license": "Apache-2.0",
 	"scripts": {
