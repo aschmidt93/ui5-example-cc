@@ -1,0 +1,17 @@
+{
+  "generator-ui5-ts-app": {
+    "namespace": "flexus.agvhub.frontend",
+    "framework": "SAPUI5",
+    "frameworkVersion": "1.108.0",
+    "author": "Andreas Schmidt",
+    "initrepo": true,
+    "tstypes": "@sapui5/ts-types-esm",
+    "tstypesVersion": "1.108.0",
+    "appId": "flexus.agvhub.frontend",
+    "appURI": "flexus/agvhub/frontend",
+    "cdnDomain": "ui5.sap.com",
+    "defaultTheme": "sap_horizon",
+    "gte11150": false,
+    "setupCompleted": true
+  }
+}
