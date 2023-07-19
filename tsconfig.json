@@ -13,7 +13,10 @@
 		"paths": {
 			"flexus/agvhub/frontend/*": ["./webapp/*"],
 			"unit/*": ["./webapp/test/unit/*"],
-			"integration/*": ["./webapp/test/integration/*"]
+			"integration/*": ["./webapp/test/integration/*"],
+			"com/myorg/myui5lib/*": [
+				"./node_modules/ui5-typescript-control-library/dist/resources/com/myorg/myui5lib/*"
+			]
 		}
 	},
 	"include": ["./webapp/**/*"]
