@@ -1,23 +1,23 @@
 {
-	"compilerOptions": {
-		"target": "es2022",
-		"module": "es2022",
-		"moduleResolution": "node",
-		"skipLibCheck": true,
-		"allowJs": true,
-		"strict": true,
-		"strictNullChecks": false,
-		"strictPropertyInitialization": false,
-		"rootDir": "./webapp",
-		"types": ["@sapui5/ts-types-esm", "@types/qunit"],
-		"paths": {
-			"com/example/project/*": ["./webapp/*"],
-			"unit/*": ["./webapp/test/unit/*"],
-			"integration/*": ["./webapp/test/integration/*"],
-			"com/myorg/myui5lib/*": [
-				"./node_modules/ui5-typescript-control-library/dist/resources/com/myorg/myui5lib/*"
-			]
-		}
-	},
-	"include": ["./webapp/**/*"]
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "skipLibCheck": true,
+    "allowJs": true,
+    "strict": true,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "rootDir": "./webapp",
+    "types": ["@sapui5/ts-types-esm", "@types/qunit"],
+    "paths": {
+      "com/example/project/*": ["./webapp/*"],
+      "unit/*": ["./webapp/test/unit/*"],
+      "integration/*": ["./webapp/test/integration/*"],
+      "com/myorg/myui5lib/*": [
+        "./node_modules/ui5-typescript-control-library/dist/resources/com/myorg/myui5lib/*"
+      ]
+    }
+  },
+  "include": ["./webapp/**/*"]
 }

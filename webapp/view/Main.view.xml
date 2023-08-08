@@ -1,5 +1,4 @@
 <mvc:View
-	xmlns:cc="com.myorg.myui5lib"
 	controllerName="com.example.project.controller.Main"
 	displayBlock="true"
 	xmlns="sap.m"
@@ -27,5 +26,4 @@
 			/>
 		</buttons>
 	</MessagePage>
-	<cc:Example text="test"/>
 </mvc:View>
