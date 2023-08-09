@@ -11,6 +11,7 @@
     "rootDir": "./webapp",
     "types": ["@sapui5/ts-types-esm", "@types/qunit"],
     "paths": {
+      "sap/*": ["./node_modules/@sapui5/ts-types-esm/*"],
       "com/example/project/*": ["./webapp/*"],
       "unit/*": ["./webapp/test/unit/*"],
       "integration/*": ["./webapp/test/integration/*"],
