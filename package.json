@@ -16,6 +16,7 @@
   },
   "devDependencies": {
     "@sapui5/ts-types-esm": "1.108.0",
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^5.61.0",
     "@typescript-eslint/parser": "^5.61.0",
     "@ui5/cli": "^3.3.1",

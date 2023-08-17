@@ -1,10 +1,10 @@
-
 import MessageBox from "sap/m/MessageBox";
 
 import axios from "axios";
 
-import BaseController from "./BaseController";
+import "../model/models";
 import AppController from "./App.controller";
+import BaseController from "./BaseController";
 
 /**
  * @namespace com.example.project.controller
